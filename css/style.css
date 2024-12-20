@@ -1,0 +1,125 @@
+body {
+    padding-bottom: 60px;
+    margin: 0;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.source-folder {
+    font-size: 0.9em;
+    color: gray;
+}
+
+.cash-item {
+    font-weight: bold;
+    color: #ff4500;
+}
+
+.stats {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.navbar {
+    justify-content: center;
+}
+
+.nav-tabs {
+    margin-bottom: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #e9ecef;
+    font-size: 0.9em;
+}
+
+.disclaimer {
+    font-size: 0.75em;
+    color: gray;
+}
+
+.logo-section {
+    background: linear-gradient(to right, #4f8fb0, #6fafcf);
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    max-height: 100px;
+}
+
+.content-container {
+    margin-top: 20px;
+}
+
+.custom-button {
+    display: inline-block;
+    background-color: #4f8fb0;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px solid #4f8fb0;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #6fafcf;
+    border-color: #6fafcf;
+}
+
+.custom-button.disabled {
+    background-color: #e0e0e0;
+    color: #a3a3a3;
+    border: 2px solid #cccccc;
+    pointer-events: none;
+    cursor: not-allowed;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.nav .custom-button {
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        max-height: 80px;
+    }
+
+    .logo-section {
+        height: 10vh;
+    }
+
+    .custom-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .nav .custom-button {
+        display: block;
+        width: 100%;
+    }
+}
